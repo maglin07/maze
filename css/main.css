@@ -1,0 +1,54 @@
+:root {
+    box-sizing: border-box;
+    
+  }
+  body{
+    margin: 0;
+  }
+  /* *{
+    background-image: url("https://cdn.wallpapersafari.com/67/64/qbgKPN.jpg");
+    background-size: cover;
+  } */
+  #maze {
+    float: left;
+    margin-left: 350px;
+    margin-top: 150px;
+  }
+  .column {
+    display: flex;
+  }
+  .wall {
+    background: rgb(242, 29, 29);
+    width: 30px;
+    height: 30px;
+  }
+  .starts {
+    background: yellow;
+    width: 30px;
+    height: 30px;
+  }
+  .finish {
+    background: blueviolet;
+    width: 30px;
+    height: 30px;
+  }
+  .path {
+    background: black;
+    width: 30px;
+    height: 30px;
+  }
+  #player {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid gold;
+    background-image: url("https://cdn.shopify.com/s/files/1/1061/1924/products/Pumpkin_Emoji_Icon_169be5a5-3354-4573-b327-5d69e23e8458_large.png?v=1571606092");
+    background-size: 30px;
+  }
+  
+  #finish{
+    width: 300px;
+    height: 100px;
+    border: 1px solid gold;
+  
+  }
